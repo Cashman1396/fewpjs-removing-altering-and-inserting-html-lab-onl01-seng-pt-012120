@@ -4,6 +4,6 @@ const testVar = "hi"
 document.querySelector("main#main").remove();
 
 const newHeader = document.createElement("h1");
-newHeader.id = "victory";
+newHeader.id = "victory"
 newHeader.innerHTML = "Flatiron School is the Champion!";
 newHeader.className = "victory";
